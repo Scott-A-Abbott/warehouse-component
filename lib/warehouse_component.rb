@@ -1,8 +1,7 @@
 require "eventide/postgres"
 
-# TODO Load command and event message files"
-# require "warehouse_component/messages/commands/..."
-# require "warehouse_component/messages/events/..."
+require "warehouse_component/messages/commands/ship_product"
+require "warehouse_component/messages/events/product_shipped"
 
 require "warehouse_component/warehouse"
 require "warehouse_component/projection"
